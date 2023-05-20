@@ -34,7 +34,7 @@ function startGame(){
 }
 // placing the mark ,switching turns,checking win
 function handleClick(e){
-    const cell=e.target     
+    const cell=e.target
     const currentClass=circleTurn?CIRCLE_CLASS:X_CLASS
     placeMark(cell,currentClass)
     if(checkWin(currentClass)){

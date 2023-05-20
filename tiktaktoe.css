@@ -138,7 +138,6 @@ body{
 .winning-message button:hover{
     background-color: black;
     color: white;
-    
 }
 .winning-message.show{
     display: flex;
